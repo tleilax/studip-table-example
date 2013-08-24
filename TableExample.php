@@ -40,10 +40,10 @@ class TableExample extends StudipPlugin implements SystemPlugin
         return _('Beispiel-Tabelle');
     }
 
-    public function actionshow()
+    public function show_action()
     {
         $factory = new Flexi_TemplateFactory($this->getPluginPath());
-        $template = $factory->open('tables');
+        $template = $factory->open('table');
         $template->set_layout($GLOBALS['template_factory']->open('layouts/base'));
         echo $template->render();
     }

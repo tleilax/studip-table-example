@@ -151,7 +151,7 @@
                 </span>
               
                 <input type="checkbox" data-proxyfor="tbody :checkbox">
-                Alle ausw√§hlen
+                Alle ausw‰hlen
                 
                 <select>
                     <option>Aktion...</option>
